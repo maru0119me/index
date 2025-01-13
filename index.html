@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Discord token(更新終了)</title>
+    <meta name="description" content="このツールは、今後更新されません。そのため、discord側が対策を行ったりAPIのバージョンを変更したとしてもこのツールは更新されません。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .message {
+            position: relative;
+        }
+        .message span.remark {
+            display: none;
+        }
+        .message a:hover span.remark {
+            background: none repeat scroll 0 0 #EEFFEE;
+            border: 1px solid #CCCCCC;
+            color: #000000;
+            display: block;
+            line-height: 1.2em;
+            margin: 0.5em;
+            padding: 0.5em;
+            position: absolute;
+            top: 50px;
+            width: 12em;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="hidden" id="is_login" value="false">
+    <script src="script.js"></script>
+</body>
+
+</html>
